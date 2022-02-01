@@ -1,0 +1,249 @@
+*{
+    font-family: DM Sans;
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    background-color: #029F58;
+    position: relative;
+    width: 100%;
+    min-height: 100vh; 
+    background-image: url(images/hash.png);
+ 
+
+}
+
+
+.nav{
+    display: flex;
+    padding: 2% 6%; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{ 
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: azure;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.text-box h1 { 
+    font-size: 150px; 
+    /* Width: 1200px;
+    Height: 369px; */
+    line-height: 94.6%;
+    letter-spacing: -0.06em;
+    margin: 20px 0 55px;
+}
+
+.text-box p{
+    margin: 30px 0 60px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.text-box a{
+
+    padding: 10px;
+    left: 0px;
+    top: 0.375px;
+    border-radius: 5px;
+
+}
+
+
+.help{
+    margin: auto;
+    text-align: left;
+    padding: 100px;
+    background-image: url(images/hash.png);
+}
+
+.help h1{
+font-weight: 500;
+font-size: 72px;
+line-height: 101.1%;
+letter-spacing: -0.03em;
+color: #007640;
+top: 143px
+
+
+}
+
+.aboutlogo{
+    position: relative;
+    left: -3.41%;
+    right: -1.63%;
+    top: -2.38%;
+    bottom: 3.25%;
+    Width: 169.12px;
+    Height: 191.71px; 
+   
+}
+/* .aboutlogo1{
+    Width:489.52px;
+    Height:553.37px;
+    padding-left: 850.53px;
+    bottom: -2px;
+} */
+
+p{
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    opacity: 0.6;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+
+
+.dotted-logo{
+position: absolute;
+width: 720px;
+height: 662px;
+left: 1px;
+top: 0px;
+}
+/* ----------------------- influencers ------------------- */
+
+.influencers{
+    margin: auto;
+    text-align: left;
+    padding: 100px;
+    top: 206px;  
+   
+}
+
+.influencers h1{
+  
+    font-weight: 500;
+    font-size: 68px; 
+    line-height: 101.1%;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.fans{
+    width: 100px;
+    height: 32px;
+    left: 129px;
+    top: 134px;
+    background: #FFBB62;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 110%;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between; 
+}
+
+.row-space-between img{
+  
+    display: flex;
+    transition: 300ms;
+ 
+}
+
+.row-space-between img:hover{
+   transform: rotate(-7deg);
+
+}
+
+.row-space-between .shutterstock{
+    display: flex;
+    left: 901.64px; 
+    transform: rotate(-5.01deg);
+    background: url(images/shutterstock_1577.png);  
+}
+
+.row-space-between .shutterstock{
+    display: flex;
+ 
+    transform: rotate(-3.01deg);
+    background: url(images/shutterstock_7546.png);  
+}
+
+.assured-content__wrapper{
+    position: absolute;
+    width: 720px;
+    height: 662px;
+    left: 0px;
+    background: #039352;
+
+}
+
+.inner-container{
+    margin: auto;
+    text-align: left;
+    padding-left: 270px;
+    top: 106px;   
+}
+.button{
+    width: 100px;
+    height: 32px;
+    left: 120px;
+    top: 142px;
+    background: #FFBB62;
+    border-radius: 50px;
+}
+
+
+.assured-content{
+    margin: auto;
+    text-align: left;
+    padding: 100px;
+    top: 206px;  
+}
+.assured-content h2{
+    
+    font-weight: 500;
+    font-size: 68px; 
+    line-height: 100.1%;
+    letter-spacing: -0.03em;
+    color: azure;
+    width: 481px;
+    height: 136px;
+    left: 120px;
+    
+}
+.assured-content p{
+    width: 481px;
+    height: 90px;
+    font-size: 20px;
+    line-height: 150%;
+    color: azure;
+    opacity: 0.9;
+    left: 120px;
+    top: 396px;
+}
+
